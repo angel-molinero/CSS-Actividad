@@ -1,0 +1,73 @@
+body{
+    background-color: #313d67;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    background-color: #313d67;
+    text-align: center;
+    color: white;
+    margin: 60px;
+    padding: 20px;
+    border-radius: 20px;
+    background-image: url(/assets/global.jpg);
+    background-size: cover;
+}
+
+.name_app{
+    padding: 10px;
+    margin: 80px;
+    font-size: 60px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: #1a2244;
+    border-radius: 20px;
+}
+
+.subtitle{
+    background-color: #1a2244;
+    padding: 20px;
+    margin: 80px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.button{
+    background-color: #a5c9e7;
+    cursor: pointer;
+    padding: 20px 40px;
+    border-radius: 20px;
+    border: none;
+}
+
+.button:hover{
+    background-color: #065252;
+    color: white;
+}
+
+/* Estilos base para la pantalla más pequeña */
+body {
+  font-size: 16px;
+}
+
+/* Estilos para pantallas medianas (por ejemplo, tablets) */
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* Estilos para pantallas grandes (por ejemplo, desktops) */
+@media (min-width: 1024px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+/* Puedes agregar más rangos de ancho de pantalla si lo necesitas */
+@media (min-width: 1200px) {
+  body {
+    font-size: 22px;
+  }
+}
+
